@@ -10,4 +10,4 @@ A JavaScript application that displays a person's profile by username.
 
 ## Live
 
-- [Github User Search App](https://sinandmr.github.io/GithubUserSearch/)
+- [Github User Search App](https://sinandmr.github.io/githubUserSearch/)
