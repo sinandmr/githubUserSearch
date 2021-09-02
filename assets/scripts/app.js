@@ -1,0 +1,15 @@
+'use strict';
+const searchInput = document.querySelector('#searchfield');
+const searchBtn = document.querySelector('#go');
+const avatarImg = document.querySelector('#avatarimg');
+const userName = document.querySelector('.user');
+const userNick = document.querySelector('.usernick');
+const joinedDate = document.querySelector('.joined');
+const bio = document.querySelector('.bio');
+const repos = document.querySelector('#repos');
+const followers = document.querySelector('#followers');
+const following = document.querySelector('#following');
+const userLocation = document.querySelector('#location');
+const twitter = document.querySelector('.twitterId');
+const website = document.querySelector('.site');
+const company = document.querySelector('#company');
