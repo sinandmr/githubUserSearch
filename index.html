@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub User Search App</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="dark-theme||light-theme">
+    <div class="content">
+        <header>
+            <h1>devfinder</h1>
+            <div class="mode">
+                <div id="color">Dark</div>
+                <div><img src="assets/images/icon-moon.svg" alt="Dark mode" id="coloricon"></div>
+            </div>
+        </header>
+        <div class="search">
+            <input type="text" id="searchfield" placeholder="Search GitHub username...">
+            <div id="noresults">No results</div>
+            <button id="go">Search</button>
+        </div>
+        <div class="info">
+
+            <div class="userdata">
+                <div class="namejoinedavatar">
+                    <div class="avatar">
+                        <img style="cursor:pointer" src="https://avatars.githubusercontent.com/u/583231?v=4" alt="The Octocat" id="avatarimg">
+                    </div>
+                    <div class="namejoined">
+                        <div class="name">
+                            <h2 class="userName"><a class="deco user" target="_blank" href="https://github.com/octocat">The Octocat</a></h2>
+                            <div class="usernick">@octocat</div>
+                        </div>
+                        <div class="joined">Joined January 25, 2011</div>
+                    </div>
+                </div>
+                <div class="bio">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+                <div class="stats">
+                    <div class="statsitem">
+                        Repos <span id="repos">21</span>
+                    </div>
+                    <div class="statsitem">
+                        Followers <span id="followers">34</span>
+                    </div>
+                    <div class="statsitem">
+                        Following <span id="following">13</span>
+                    </div>
+                </div>
+                <div class="social">
+                    <div class="socialitem">
+                        <img src="assets/images/icon-location.svg" alt="Location">
+                        <div id="location">San Francisco</div>
+                    </div>
+                    <div class="socialitem">
+                        <img src="assets/images/icon-twitter.svg" alt="Twitter">
+                        <div id="twitter"><a target="_blank" class="deco twitterId" href="">Twitter</a></div>
+                    </div>
+                    <div class="socialitem">
+                        <img src="assets/images/icon-website.svg" alt="Website">
+                        <div id="website"><a target="_blank" class="deco site" href="" disabled="disabled">github.com</a></div>
+                    </div>
+                    <div class="socialitem">
+                        <img src="assets/images/icon-company.svg" alt="Company">
+                        <div id="company">Github</div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="assets/scripts/app.js"></script>
+    <script src="assets/scripts/mode.js"></script>
+
+</body>
+
+</html>
